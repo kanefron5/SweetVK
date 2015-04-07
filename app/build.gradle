@@ -8,8 +8,8 @@ android {
         applicationId "com.kanefron5.vktest"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 3
-        versionName "0.6"
+        versionCode 4
+        versionName "0.7"
     }
     buildTypes {
         release {
