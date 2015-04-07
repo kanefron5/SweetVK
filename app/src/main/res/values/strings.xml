@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SweetVK</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="dialog">Уже уходите?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="chainglog"><b>*0.6</b>\nСоздание этого окна\n<b>*0.5.9.1</b>\nБагфиксы\n<b>*0.1</b>\nПервый релиз</string>
+</resources>
