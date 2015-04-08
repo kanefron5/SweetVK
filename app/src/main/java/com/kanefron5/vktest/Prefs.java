@@ -16,8 +16,5 @@ public class Prefs extends PreferenceActivity
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.pref);
     }
-    public void onPreferenceClick(View view){
-        Intent pref = new Intent(Prefs.this, Easter.class);
-        startActivity(pref);
-    }
+
 }

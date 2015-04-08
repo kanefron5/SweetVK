@@ -46,19 +46,19 @@ public class Nav extends ActionBarActivity {
                     String strText = textView.getText().toString(); // получаем текст нажатого элемента
 
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Профиль))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Prof.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Новости))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, News.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Ответы))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Feedback.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Сообщения))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Messages.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Друзья))) {
@@ -66,19 +66,19 @@ public class Nav extends ActionBarActivity {
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Группы))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Comunities.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Фотографии))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Photos.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Видео))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Videos.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Музыка))) {
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Music.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Настройки))) {

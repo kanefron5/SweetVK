@@ -45,6 +45,39 @@
             android:label="Настройки"
             android:theme="@style/ab">
         </activity>
+
+        <activity android:name=".Comunities"
+            android:label="@string/Группы"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Feedback"
+            android:label="@string/Ответы"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Messages"
+            android:label="@string/Сообщения"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Music"
+            android:label="@string/Музыка"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".News"
+            android:label="@string/Новости"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Photos"
+            android:label="@string/Фотографии"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Prof"
+            android:label="@string/Профиль"
+            android:theme="@style/ab">
+        </activity>
+        <activity android:name=".Videos"
+            android:label="@string/Видео"
+            android:theme="@style/ab">
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

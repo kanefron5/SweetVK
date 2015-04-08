@@ -10,8 +10,9 @@
     <PreferenceCategory
         android:title="О разработчиках"/>
     <Preference
-        android:title="Роман Заболотских"
-        android:summary="Сергей Романов"/>
+        android:title="Роман Заболотских"/>
+    <Preference
+        android:title="Сергей Романов"/>
 
 
     <PreferenceCategory
