@@ -13,4 +13,9 @@
         <item name="colorPrimary">#ff3f51b5</item>
     </style>
 
+    <style name="chaing" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">#ff044226</item>
+        <item name="android:background">#ff044226</item>
+    </style>
+
 </resources>

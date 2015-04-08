@@ -1,5 +1,6 @@
 package com.kanefron5.vktest;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 
 /**

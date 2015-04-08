@@ -45,7 +45,7 @@ public class Easter extends Start {
     public void onYaClick(View view) {
         mPlay.stop();
         x++;
-        if (x>2)
+        if (x>3)
             x=0;
         Intent chainglog = new Intent(Easter.this, Chaing.class);
         startActivity(chainglog);

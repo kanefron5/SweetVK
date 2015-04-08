@@ -37,10 +37,6 @@
             android:label="Навигация"
             android:theme="@style/ab">
             </activity>
-        <activity android:name=".Dd"
-            android:label="@string/app_name"
-            android:theme="@style/ab">
-        </activity>
         <activity android:name=".Prefs"
             android:label="Настройки"
             android:theme="@style/ab">
@@ -81,5 +77,6 @@
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
 </manifest>
