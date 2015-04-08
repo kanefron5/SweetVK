@@ -46,53 +46,43 @@ public class Nav extends ActionBarActivity {
                     String strText = textView.getText().toString(); // получаем текст нажатого элемента
 
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Профиль))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Новости))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Ответы))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Сообщения))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Друзья))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, MainActivity.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Группы))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Фотографии))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Видео))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Музыка))) {
-                        // Запускаем активность, связанную с определенным именем кота
                         Intent i = new Intent(Nav.this, Dd.class);
                         startActivity(i);
                     }
                     if (strText.equalsIgnoreCase(getResources().getString(R.string.Настройки))) {
-                        // Запускаем активность, связанную с определенным именем кота
-                        Intent i = new Intent(Nav.this, Dd.class);
+                        Intent i = new Intent(Nav.this, Prefs.class);
                         startActivity(i);
                     }
                 }

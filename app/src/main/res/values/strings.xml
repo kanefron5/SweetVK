@@ -18,5 +18,5 @@
     <string name="dialog">Уже уходите?</string>
     <string name="Yes">Да</string>
     <string name="No">Нет</string>
-    <string name="chainglog"><b>*1.0</b>\nМеню навигации\nУлучшена работоспособность\nMinSdk 14\nЕще что-то\n<b>*0.6</b>\nСоздание этого окна\n<b>*0.5.9.1</b>\nБагфиксы\n<b>*0.1</b>\nПервый релиз</string>
+    <string name="chainglog"><b>*1.1</b>\nДобавление настроек\n<b>*1.0</b>\nМеню навигации\nУлучшена работоспособность\nMinSdk 14\nЕще что-то\n<b>*0.6</b>\nСоздание этого окна\n<b>*0.5.9.1</b>\nБагфиксы\n<b>*0.1</b>\nПервый релиз</string>
 </resources>

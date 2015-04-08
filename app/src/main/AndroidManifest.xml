@@ -41,6 +41,10 @@
             android:label="@string/app_name"
             android:theme="@style/ab">
         </activity>
+        <activity android:name=".Prefs"
+            android:label="Настройки"
+            android:theme="@style/ab">
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

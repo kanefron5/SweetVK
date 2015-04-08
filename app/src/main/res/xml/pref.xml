@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Основное"/>
+    <CheckBoxPreference
+        android:title="Отправлять отчет"/>
+
+
+    <PreferenceCategory
+        android:title="О разработчиках"/>
+    <Preference
+        android:title="Роман Заболотских"
+        android:summary="Сергей Романов"/>
+
+
+    <PreferenceCategory
+        android:title="О сборке"/>
+    <Preference
+        android:title="Версия"
+        android:summary="1.1">
+    </Preference>
+    <Preference
+        android:title="Дата сборки"
+        android:summary="08.04.2015 16-13">
+    </Preference>
+
+</PreferenceScreen>

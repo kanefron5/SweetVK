@@ -39,8 +39,7 @@ public class Start extends Activity {
     public void onClick(View view) {
         Intent login = new Intent(Start.this, MainActivity.class);
         startActivity(login);
-        Toast toast = Toast.makeText(this, "Добавить аккаунт!", Toast.LENGTH_SHORT);
-        toast.show();
+
     }
 
     public void onImgCkick(View view){
