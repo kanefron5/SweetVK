@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">SweetVK</string>
 
+        <string name="Профиль">Профиль</string>
+        <string name="Новости">Новости</string>
+        <string name="Ответы">Ответы</string>
+        <string name="Сообщения">Сообщения</string>
+        <string name="Друзья">Друзья</string>
+        <string name="Группы">Группы</string>
+        <string name="Фотографии">Фотографии</string>
+        <string name="Видео">Видео</string>
+        <string name="Музыка">Музыка</string>
+        <string name="Настройки">Настройки</string>
+
+
 
     <string name="action_settings">Settings</string>
     <string name="dialog">Уже уходите?</string>

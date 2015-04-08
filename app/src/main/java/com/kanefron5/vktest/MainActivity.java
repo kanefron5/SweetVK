@@ -209,5 +209,9 @@ public class MainActivity extends ListActivity {
             }
         });
     }
+    public void onNavClick(View view){
+        Intent nav = new Intent(MainActivity.this, Nav.class);
+        startActivity(nav);
+    }
 
 }

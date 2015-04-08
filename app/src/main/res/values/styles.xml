@@ -9,5 +9,8 @@
         <item name="android:colorBackground">@android:color/transparent</item>
        <item name="android:windowShowWallpaper">true</item>
     </style>
+    <style name="ab" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff3f51b5</item>
+    </style>
 
 </resources>

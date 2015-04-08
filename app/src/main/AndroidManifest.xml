@@ -33,6 +33,14 @@
             android:theme="@android:style/Theme.Holo.Dialog">
 
             </activity>
+        <activity android:name=".Nav"
+            android:label="Навигация"
+            android:theme="@style/ab">
+            </activity>
+        <activity android:name=".Dd"
+            android:label="@string/app_name"
+            android:theme="@style/ab">
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />
