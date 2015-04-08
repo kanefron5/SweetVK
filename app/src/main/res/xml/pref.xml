@@ -9,17 +9,48 @@
 
     <PreferenceCategory
         android:title="О разработчиках"/>
-    <Preference
-        android:title="Роман Заболотских"/>
-    <Preference
-        android:title="Сергей Романов"/>
+    <PreferenceScreen
+        android:title="Узнайте разработчиков">
+        <PreferenceScreen
+            android:title="Роман Заболотских"
+            android:summary="Кодер">
+            <Preference
+                android:title="Вконтакте">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="http://vk.com/roman_zabolotskih">
+                </intent>
+            </Preference>
+            <Preference
+                android:title="Сайт">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="http://romik.cf">
+                </intent>
+            </Preference>
+            </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="Сергей Романов"
+            android:summary="Десигнер">
+            <Preference
+                android:title="Вконтакте">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="http://vk.com/sergo_rus24">
+                </intent>
+            </Preference>
+
+        </PreferenceScreen>
+        </PreferenceScreen>
+
 
 
     <PreferenceCategory
         android:title="О сборке"/>
     <Preference
         android:title="Версия"
-        android:summary="1.1">
+        android:summary="1.2">
     </Preference>
     <Preference
         android:title="Дата сборки"
